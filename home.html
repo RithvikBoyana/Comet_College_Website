@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>College List</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Colleges</h1>
+    <div class="d-flex p-1 bg-dark text-white">
+        <div class="p-5" style="width:600px">
+            <div class="container mt-1">
+                <div class="card">
+                  <div class="card-header"> <FONT COLOR = #000000>University of Texas Austin</FONT></div>
+                  <div class="card-body">
+                    <img style="width:250px;height:250px;" src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/University_of_Texas_at_Austin_seal.svg/1200px-University_of_Texas_at_Austin_seal.svg.png" alt="error" style="width:50%;height:40%">
+                    <br><button type="button" class="btn btn-primary" style="margin:auto;width:100%;border:3px;padding:10px" data-bs-toggle="modal" data-bs-target="#UTAustin">More Info</button>
+                  </div> 
+                  <div class="card-footer"></div>
+                </div>
+              </div>
+        </div>
+        <div class="p-5" style="width:600px">
+          <div class="container mt-1">
+              <div class="card">
+                <div class="card-header"> <FONT COLOR = #000000>Texas A&M University</FONT></div>
+                <div class="card-body">
+                  <img style="width:250px;height:250px;" src="https://images.thdstatic.com/productImages/2e099266-4133-4717-81bc-d3c257dae60d/svn/gray-fanmats-sports-rugs-18642-64_1000.jpg" alt="error" style="width:50%;height:40%">
+                  <br><button type="button" class="btn btn-primary" style="margin:auto;width:100%;border:3px;padding:10px" data-bs-toggle="modal" data-bs-target="#TAMU">More Info</button>
+                </div> 
+                <div class="card-footer"></div>
+              </div>
+            </div>
+        </div>
+        <div class="p-5" style="width:600px">
+          <div class="container mt-1">
+              <div class="card">
+                <div class="card-header"> <FONT COLOR = #000000>University of North Texas</FONT></div>
+                <div class="card-body">
+                  <img style="width:250px;height:250px;" src="https://pbs.twimg.com/profile_images/1214226255425368065/0mHELfbB_400x400.jpg" alt="error" style="width:50%;height:40%">
+                  <br><button type="button" class="btn btn-primary" style="margin:auto;width:100%;border:3px;padding:10px" data-bs-toggle="modal" data-bs-target="#UNT">More Info</button>
+                </div> 
+                <div class="card-footer"></div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="d-flex p-1 bg-dark text-white">
+        <div class="p-5" style="width:600px">
+            <div class="container mt-1">
+                <div class="card">
+                  <div class="card-header"> <FONT COLOR = #000000>University of Texas Dallas</FONT></div>
+                  <div class="card-body">
+                    <img style="width:250px;height:250px;" src="data:image/png;base64,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" alt="error" style="width:50%;height:40%">
+                    <br><button type="button" class="btn btn-primary" style="margin:auto;width:100%;border:3px;padding:10px" data-bs-toggle="modal" data-bs-target="#UTD">More Info</button>
+                  </div> 
+                  <div class="card-footer"></div>
+                </div>
+              </div>
+        </div>
+        <div class="p-5" style="width:600px">
+          <div class="container mt-1">
+              <div class="card">
+                <div class="card-header"> <FONT COLOR = #000000>Rice University</FONT></div>
+                <div class="card-body">
+                  <img style="width:250px;height:250px;" src="https://www.marye-kelley.com/images/products/detail/PW4614_Rice_Paperweight.jpg" alt="error" style="width:50%;height:40%">
+                  <br><button type="button" class="btn btn-primary" style="margin:auto;width:100%;border:3px;padding:10px" data-bs-toggle="modal" data-bs-target="#Rice">More Info</button>
+                </div> 
+                <div class="card-footer"></div>
+              </div>
+            </div>
+        </div>
+        <div class="p-5" style="width:600px">
+          <div class="container mt-1">
+              <div class="card">
+                <div class="card-header"> <FONT COLOR = #000000>Texas Tech University</FONT></div>
+                <div class="card-body">
+                  <img style="width:250px;height:250px;" src="https://fanatics.frgimages.com/FFImage/thumb.aspx?i=/productimages/_3473000/ff_3473693-f450aa065e7f85dacf05_full.jpg&w=900" alt="error" style="width:50%;height:40%">
+                  <br><button type="button" class="btn btn-primary" style="margin:auto;width:100%;border:3px;padding:10px" data-bs-toggle="modal" data-bs-target="#Tech">More Info</button>
+                </div> 
+                <div class="card-footer"></div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+  <div class="modal fade" id="UTAustin">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">University of Texas at Austin</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          UT Austin is a public school located in the capital city of Texas, Austin. It excells in STEM field studies such as Mathametics, Sciences, and Technology.
+          <br><br><button type="button" class="btn btn-primary" onclick="utAustin()">More info</button>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>  
+
+  <div class="modal fade" id="TAMU">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Texas A&M University</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          Texas A&M is a public university in the city of College Station and the first of its kind in the state. It is know for its Mechanics and Sciences courses.
+          <br><br><button type="button" class="btn btn-primary" onclick="tamu()">More info</button>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div> 
+
+  <div class="modal fade" id="UNT">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">University of North Texas</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          UNT is a public university located in Denton, TX, in close proximity ot the DFW region. It is known for its leading music education and medical studies
+          <br><br><button type="button" class="btn btn-primary" onclick="unt()">More info</button>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div> 
+
+  <div class="modal fade" id="UTD">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">University of Texas at Dallas</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          UT Dallas is a public university in located in Dallas, TX. It is well known for it's advancement it technology and engineering classes and is an affordable option for many students
+          <br><br><button type="button" class="btn btn-primary" onclick="utd()">More info</button>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div> 
+
+  <div class="modal fade" id="Rice">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Rice University</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          Rice University is a private university located in Houston, TX and is well known for it's excellence in research and applied sciences programs and courses
+          <br><br><button type="button" class="btn btn-primary" onclick="rice()">More info</button>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div> 
+
+  <div class="modal fade" id="Tech">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Texas Tech University</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          Texas Tech is a public university located in Lubbock, TX and is known for higher education in research, law, and medicine.
+          <br><br><button type="button" class="btn btn-primary" onclick="tech()">More info</button>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div> 
+  
+  <script>
+    function utAustin(){
+        location.href = "https://www.utexas.edu/";
+    }
+    function tamu() {
+        location.href = "https://www.tamu.edu/index.html";
+    }
+    function unt() {
+      location.href = "https://www.unt.edu/";
+    }
+    function utd() {
+      location.href = "https://www.utdallas.edu/";
+    }
+    function rice() {
+      location.href = "https://www.rice.edu/";
+    }
+    function tech() {
+      location.href = "https://www.ttu.edu/";
+    }
+    </script>
+  </body>
+</html>
